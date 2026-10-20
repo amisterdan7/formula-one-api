@@ -1,5 +1,5 @@
 import fastify from "fastify";
-import cors from "cors";
+import cors from "@fastify/cors";
 import { teams } from "./teams";
 
 const server = fastify({ logger: true });
